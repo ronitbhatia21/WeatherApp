@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
-        binding.lottieAnimationView2.pauseAnimation()
+        binding.lottieAnimationView2.playAnimation()
     }
 
     fun dayName(timestamp: Long): String{
